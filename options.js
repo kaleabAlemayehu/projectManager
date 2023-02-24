@@ -1,0 +1,1 @@
+module.exports = ['study', 'project', 'nerds', 'pdf', 'movie', 'define'];
