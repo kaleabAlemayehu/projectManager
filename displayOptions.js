@@ -1,5 +1,4 @@
 
-
 module.exports = (options, selectedOptions) => {
     console.clear();
     options.forEach((opt, index) => {

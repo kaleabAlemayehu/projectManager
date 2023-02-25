@@ -1,1 +1,1 @@
-module.exports = ['study', 'project', 'nerds', 'pdf', 'movie', 'define'];
+module.exports = ['project: Nodejs Course', 'Nerd: Project Nerds', 'Open File Manager'];

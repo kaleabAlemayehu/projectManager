@@ -1,6 +1,7 @@
 const  keypress = require('keypress');
 const options = require('./options');
 const displayOptions = require('./displayOptions');
+const command = require('./commands');
 let selectedIndex = 0;
 // make `process.stdin` begin emitting "keypress" events
 keypress(process.stdin);
@@ -22,7 +23,7 @@ const keyPressHandler =  (ch, key) => {
     }
 
     case 'return':
-      console.log('conformint choice selected index is : ', selectedIndex);
+       command(selectedIndex);
       break;
   
     default:{
