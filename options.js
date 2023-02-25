@@ -1,1 +1,1 @@
-module.exports = ['project: Nodejs Course', 'Nerd: Project Nerds', 'Open File Manager'];
+export const options = ['project: Nodejs Course', 'Nerd: Project Nerds', 'Open File Manager'];

@@ -1,4 +1,4 @@
-const { spawn } = require('node:child_process');
+import { spawn } from 'node:child_process';
 
 const commandLists = [
     ['code' ,'/home/cipher/Documents/node/complete-node-bootcamp/4-natours/after-section-06'],
@@ -17,7 +17,7 @@ const executeCommand  = (index) => {
     })
       
 }
-module.exports = executeCommand;
+export default executeCommand;
 
 
 
